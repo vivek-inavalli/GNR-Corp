@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-black text-white px-6 py-12">
       <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
         <div>
-          <img src={logo} />
+          <img src={logo} className="h-[100px] w-[200px]" />
           <p className="mb-4 text-sm">
             Subscribe to our newsletter for the latest updates on the event and
             more.
