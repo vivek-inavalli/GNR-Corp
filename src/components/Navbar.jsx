@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "../public/logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -58,9 +59,11 @@ const Navbar = () => {
       </div>
 
       <div className="hidden md:block">
-        <button className="bg-blue-200 text-black font-bold py-2 px-6 rounded-full border-0  shadow-md hover:bg-blue-300">
-          Register
-        </button>
+        <Link to="/register">
+          <button className="bg-blue-200 text-black font-bold py-2 px-6 rounded-full border-0  shadow-md hover:bg-blue-300">
+            Register
+          </button>
+        </Link>
       </div>
 
       <div className="md:hidden">
