@@ -10,7 +10,7 @@ const HeroSection = () => {
           Join us for an unforgettable celebration of beauty, culture, and
           talent at the Miss Andhra Pradesh &
           <br className="hidden md:block" />
-          Miss Telangana 2023 event. Witness the crowning of the new queens who
+          Miss Telangana 2025 event. Witness the crowning of the new queens who
           will represent our
           <br className="hidden md:block" />
           vibrant states!
