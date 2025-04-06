@@ -1,12 +1,12 @@
 import { Facebook, Instagram, Twitter, Linkedin, Youtube } from "lucide-react";
-import logo from '../public/logo.png'
+import logo from "../public/logo.png";
 
 const Footer = () => {
   return (
     <footer className="bg-black text-white px-6 py-12">
       <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
         <div>
-          <img src={}/>
+          <img src={logo} />
           <p className="mb-4 text-sm">
             Subscribe to our newsletter for the latest updates on the event and
             more.
